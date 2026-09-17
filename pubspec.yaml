@@ -1,0 +1,40 @@
+name: petty_cash
+
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.2.0
+  connectivity_plus: ^6.0.0
+  shared_preferences: ^2.2.3
+  intl: ^0.19.0
+  mobile_scanner: ^5.1.0
+  url_launcher: ^6.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/sk_new_logo.png
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/sk_new_logo.png"
+  adaptive_icon_background: "#FFFFFF"
+  adaptive_icon_foreground: "assets/sk_new_logo.png"
